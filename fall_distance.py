@@ -9,6 +9,3 @@ gravity = 9.8
 def fall_distance(time):
     dist = ((1 / 2) * gravity * time ** 2)
     return dist
-
-
-
