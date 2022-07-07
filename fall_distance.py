@@ -7,5 +7,6 @@ gravity = 9.8
 
 
 def fall_distance(time):
+    """Takes in time as a number value and calculates object fall distance by converting time into distance in meters"""
     dist = ((1 / 2) * gravity * time ** 2)
     return dist
